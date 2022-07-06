@@ -87,9 +87,9 @@ h1 {
   text-align: center;
 }
 
-::placeholder {
+ /* ::placeholder {
   color: lightgray;
-}
+} */
 
 hr {
   background-color: #dadada;
@@ -128,7 +128,7 @@ hr {
 
 .organization-section{
     text-align: center;
-    margin-top: 150px;
+    margin: 200px 0px;
 }
 .organization-box{
     width: 400px;
@@ -140,4 +140,60 @@ hr {
 }
 .some{
     color: #ff5959;
+}
+
+
+/* Updates Section  */
+.updates-section{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.contact{
+    width: 809px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.update-box{
+    width: 700px;
+    height: 200px;
+    background: url(./images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #FFF4D6; */
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    padding: 20px 35px;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px ;
+    font-size: 16px;
+}
+.subscribe-btn{
+    padding: 20px 35px;
+    border-radius: 0px 5px 5px 0px ;
+    background-color: #ff5959;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    color: #ffffff;
+    text-align: center;
+    padding:30px;
+    font-size: 22px;
+}
+footer p{
+    font-size: 16px;
 }
